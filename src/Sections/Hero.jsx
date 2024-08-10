@@ -42,7 +42,7 @@ const Hero = () => {
         <img src={bigShoeImg} alt="" width={610} height={500} className="object-contain relative z-10" />
       </div>
 
-      <div className="flex sm:gap-6 gap-4 absolute -bottom-[-60%] sm:left-[45%] max-sm:px-6">
+      <div className="flex sm:gap-6 gap-4 absolute -bottom-[-68%] sm:left-[50%] max-sm:px-6">
         {shoes.map((shoe,idx) => (
           <div key={idx}>
             <ShoeCard ImgUrl={shoe} CngBigShoesImg={(shoe) => setBigShoeImg(shoe)} BigShoeImg={bigShoeImg}/>
